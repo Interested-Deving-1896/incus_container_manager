@@ -1,98 +1,95 @@
-:warning: Work in Progress (Works as expected with an existing incus setup)  
 # incus_container_manager
-> A simple (for now) PyQT6 based GUI to manage your incus containers (not planning on VMs for now)
 
-A modern GUI for managing Incus containers, with a user-friendly interface and robust installer.
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/incus_container_manager) [![KDE Eco](https://img.shields.io/badge/KDE%20Eco-certified-brightgreen?logo=kde&logoColor=white&style=flat-square)](https://eco.kde.org/) [![Blue Angel](https://img.shields.io/badge/Blue%20Angel-DE--UZ%20215-0055a4?style=flat-square)](https://www.blauer-engel.de/en/certification/criteria) [![Energy](https://api.green-coding.io/v1/ci/badge/get?repo=Interested-Deving-1896%2Fincus_container_manager&branch=main&workflow=eco-audit.yml)](https://metrics.green-coding.io/ci-index.html)
 
-## Features
 
-- **List, start, stop, restart, and delete containers**
-- **Launch new containers with custom profiles**
-- **Install Incus automatically if not present**
-- **Supports Ubuntu, Debian, Fedora, Arch, Rocky, and Gentoo**
-- **Clean, modular code structure**
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-## Installation
-### Ubuntu Fixes
-```
-sudo apt update
-sudo apt install libxcb-cursor0 libxcb-cursor-dev -y
-```
+## Architecture
 
-### Clone the repository
-```
-git clone https://github.com/1412kauti/incus_container_manager.git
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
+
+## Install
+
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
+
+```bash
+git clone https://github.com/Interested-Deving-1896/incus_container_manager.git
 cd incus_container_manager
-```
-### (Optional) Virtual environmennt:
-```
-conda create -n incus_manager python=3.13 -y
-conda activate incus_manager
-```
-### Install Dependencies
-```
-pip install -r requirements.txt
-```
-### Run
-```
-cd incus_gui
-python3 main.py
 ```
 
 ## Usage
+
 
 - **Refresh the list of containers**
 - **Start, stop, restart, or delete containers**
 - **Launch new containers with custom profiles**
 - **Install Incus if not present**
 
-## Documentation
+## Configuration
 
-All modules, classes, and methods are documented with **Google-style docstrings**.  
-This makes the codebase easy to understand and maintain, and allows automated tools to generate API documentation.
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
 
-### How to Write Docstrings
+## CI
 
-- **Use triple double quotes (`"""`) for docstrings.**
-- **Place docstrings as the first statement in modules, classes, functions, and methods.**
-- **For Google-style docstrings:**
-  - **Summary:** A one-line description.
-  - **Blank line:** Separate the summary from the detailed description.
-  - **Detailed description:** Explain usage, parameters, return values, and exceptions as needed.
-  - **Example:**  
-    ```
-    """Returns the sum of two numbers.
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
 
-    Args:
-        a (int): First number.
-        b (int): Second number.
+## Mirror chain
 
-    Returns:
-        int: Sum of a and b.
-    """
-    ```
-- **Keep docstrings concise but informative.**
-- **Update docstrings whenever code changes.**
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/incus_container_manager`](https://github.com/Interested-Deving-1896/incus_container_manager) and mirrored through:
 
-### How to Read Docstrings
-
-- **From the command line:**
 ```
-python3 -c "help(incus_gui.main_window.IncusGui)"
+Interested-Deving-1896/incus_container_manager  ──►  OpenOS-Project-OSP/incus_container_manager  ──►  OpenOS-Project-Ecosystem-OOC/incus_container_manager
 ```
-- **In your favorite IDE:** Most modern IDEs show docstrings as tooltips or in documentation panels.
-- **In the code:** Docstrings are visible at the top of each module, class, and function.
-#### Further Reading
 
-- **[PEP 257 – Docstring Conventions](https://peps.python.org/pep-0257/)**
-- **[Google Python Style Guide – Docstrings](https://google.github.io/styleguide/pyguide.html#38-comments-and-docstrings)**
-- **[Real Python: Documenting Python Code](https://realpython.com/documenting-python-code/)**
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
+
+## Contributors
+
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
+
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream influences recorded._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## Accessibility
+
+<!-- AI:start:accessibility -->
+This repo uses automated accessibility auditing via `check-accessibility.yml`.
+
+Checks include: CODEOWNERS ownership coverage, README screen-reader compatibility,
+WCAG 2.1 AA HTML compliance, audio overview (espeak-ng), and Braille output (liblouis).
 
 
-## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+Run the [Check Accessibility](https://github.com/Interested-Deving-1896/incus_container_manager/actions/workflows/check-accessibility.yml)
+workflow to generate the first report and accessibility artifacts.
+See [DOCS/accessibility.md](https://github.com/Interested-Deving-1896/incus_container_manager/blob/main/DOCS/accessibility.md) for the full reference.
+<!-- AI:end:accessibility -->
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+<!-- AI:start:license -->
+[MIT](https://github.com/Interested-Deving-1896/incus_container_manager/blob/main/LICENSE) © 2026 [Interested-Deving-1896](https://github.com/Interested-Deving-1896)
+<!-- AI:end:license -->
